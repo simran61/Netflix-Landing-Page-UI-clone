@@ -433,3 +433,78 @@ img{
     color: #757575;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .showcase{
+        width: 80%;
+        height: 63vh;     
+    }
+
+    .showcase-top{
+        height: 60px;
+    }
+    
+    .showcase-top img{
+        width: 75px;
+        left: -15px;
+    }
+
+    .top-btn{
+        padding: 3px;
+        font-size: 11px;
+        margin-top: 19px;
+        margin-left: 130px;
+    }
+    
+    .showcase-top a{
+        top: 60%;
+        right: -15%;
+    }
+
+    .showcase-content{
+        margin-top: 1rem;
+    }
+
+    .showcase-content h1{
+        font-size: 20px;
+        width: 250px;
+        margin-top: 28px;
+        line-height: 25px;
+    }
+    
+    .showcase-content h3{
+        font-size: 15px;
+        width: 250px;
+        margin: 8px 0;
+    }
+    
+    .tag-line{
+        font-size: 14px;
+        padding-top: 0rem;
+        width: 230px;
+    }
+    
+    .showcase-content input{
+        left: -3.9rem;
+        bottom: -3vh;
+        width: 240px;
+        font-size: 12px;
+        padding: 10px 8px;
+    }
+    
+    .btn{
+        padding: 4px 7px;
+        font-weight: 600;
+        font-size: 11px;
+        margin-right: 2rem;
+        margin-top: -0.4rem;
+    }
+    
+    .showcase-content .btn-lg{
+        right: -0.5rem;
+        bottom: -9.5vh;
+        font-size: 12px;
+        line-height: 0rem;
+        padding: 10px 12px;
+    }
+  }
